@@ -1,0 +1,50 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+/* Style footer */
+footer {
+    margin-top:300px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
